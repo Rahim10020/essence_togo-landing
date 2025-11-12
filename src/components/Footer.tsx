@@ -85,22 +85,24 @@ export default function Footer() {
                                     </a>
                                 </div>
                             </li>
+                            <li>
+                                <div className="flex items-center gap-2 text-sm text-gray-400">
+                                    <Mail className="w-4 h-4" />
+                                    <a href="mailto:rahim100codeur@gmail.com" className="hover:text-[#0C67AD] transition-colors">
+                                        rahim100codeur@gmail.com
+                                    </a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
                 {/* Bottom Bar */}
                 <div className="mt-12 pt-8 border-t border-gray-800">
-                    <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <div className="">
                         <p className="text-sm text-gray-400 text-center md:text-left">
                             © {currentYear} EssenceTogo. Tous droits réservés. 🇹🇬
                         </p>
-                        <div className="flex items-center gap-2 text-sm text-gray-400">
-                            <Mail className="w-4 h-4" />
-                            <a href="mailto:rahim100codeur@gmail.com" className="hover:text-[#0C67AD] transition-colors">
-                                rahim100codeur@gmail.com
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
