@@ -6,7 +6,7 @@ A modern landing page for Essence Togo app, built with Next.js and Tailwind CSS.
 
 1. Install dependencies: `npm install`
 2. Run development server: `npm run dev`
-3. Open [http://localhost:3000](http://localhost:3000)
+3. Open [https://essencetogo-app.vercel.app/](https://essencetogo-app.vercel.app/)
 
 ## Features
 
