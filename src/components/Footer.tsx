@@ -1,6 +1,6 @@
 'use client'
 
-import { MapPin, Mail, Github, Twitter, Facebook } from 'lucide-react'
+import { MapPin, Mail, Github, Twitter, Facebook, Phone } from 'lucide-react'
 
 export default function Footer() {
     const currentYear = new Date().getFullYear()
@@ -60,16 +60,6 @@ export default function Footer() {
                                     Télécharger
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" className="hover:text-[#0C67AD] transition-colors duration-300">
-                                    FAQ
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="hover:text-[#0C67AD] transition-colors duration-300">
-                                    Support
-                                </a>
-                            </li>
                         </ul>
                     </div>
 
@@ -88,14 +78,12 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-[#0C67AD] transition-colors duration-300">
-                                    Mentions légales
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="hover:text-[#0C67AD] transition-colors duration-300">
-                                    Contact
-                                </a>
+                                <div className="flex items-center gap-2">
+                                    <Phone className="w-4 h-4" />
+                                    <a href="tel:+228 XX XX XX XX" className="hover:text-[#0C67AD] transition-colors duration-300">
+                                        +228 XX XX XX XX
+                                    </a>
+                                </div>
                             </li>
                         </ul>
                     </div>
