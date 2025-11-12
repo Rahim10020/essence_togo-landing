@@ -106,7 +106,7 @@ export default function Hero() {
                             {/* Phone Frame */}
                             <div className="relative bg-gray-900 rounded-[3rem] p-3 shadow-2xl">
                                 <div className="bg-white rounded-[2.5rem] overflow-hidden">
-                                    <div className="aspect-[9/19.5] bg-gradient-to-b from-[#0C67AD] to-[#5A9BD4] flex items-center justify-center">
+                                    <div className="aspect-[9/17.5] bg-gradient-to-b from-[#0C67AD] to-[#5A9BD4] flex items-center justify-center">
                                         <div className="text-center p-8">
                                             <div className="bg-white/20 backdrop-blur-sm rounded-3xl p-8 mb-6">
                                                 <MapPin className="w-20 h-20 mx-auto text-white" />
