@@ -1,0 +1,9 @@
+public/
+├── logo.png              # Logo de l'app
+├── icon.svg              # Icône
+├── screenshots/
+│   ├── home.png         # Capture d'écran accueil
+│   ├── search.png       # Capture recherche
+│   ├── favorites.png    # Capture favoris
+│   └── details.png      # Capture détails
+└── app-mockup.png       # Mockup du téléphone
