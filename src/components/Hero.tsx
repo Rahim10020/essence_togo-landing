@@ -5,15 +5,16 @@ import { MapPin, Navigation, Star } from 'lucide-react'
 
 export default function Hero() {
     return (
-        <section className="relative overflow-hidden bg-gradient-to-br from-[#0C67AD] to-[#084B7A] text-white">
+        <section className="relative overflow-hidden min-h-screen bg-gradient-to-br from-[#0C67AD] to-[#084B7A] text-white pb-24 md:pb-32">
             {/* Background decorative elements */}
             <div className="absolute inset-0 opacity-10">
                 <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
                 <div className="absolute bottom-20 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
             </div>
 
-            <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-                <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="relative flex min-h-[calc(100vh-6rem)] items-center">
+                <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+                    <div className="grid md:grid-cols-2 gap-12 items-center">
                     {/* Left Column - Text Content */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -123,6 +124,7 @@ export default function Hero() {
                         </div>
                     </motion.div>
                 </div>
+            </div>
             </div>
 
             {/* Wave Divider */}
