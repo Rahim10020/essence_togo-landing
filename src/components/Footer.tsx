@@ -37,7 +37,7 @@ export default function Footer() {
                                 <Twitter className="w-5 h-5" />
                             </a>
                             <a
-                                href="#"
+                                href="https://github.com/Rahim10020/essence-togo"
                                 className="bg-gray-800 hover:bg-[#0C67AD] p-3 rounded-lg transition-colors duration-300"
                                 aria-label="GitHub"
                             >
@@ -109,8 +109,8 @@ export default function Footer() {
                         </p>
                         <div className="flex items-center gap-2 text-sm text-gray-400">
                             <Mail className="w-4 h-4" />
-                            <a href="mailto:contact@essencetogo.com" className="hover:text-[#0C67AD] transition-colors">
-                                contact@essencetogo.com
+                            <a href="mailto:rahim100codeur@gmail.com" className="hover:text-[#0C67AD] transition-colors">
+                                rahim100codeur@gmail.com
                             </a>
                         </div>
                     </div>
